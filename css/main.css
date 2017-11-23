@@ -1,0 +1,254 @@
+/* Estilo general del body */
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.through:hover{
+  color: #FF00BF;
+  text-decoration:
+}
+.hand:hover{
+  cursor: pointer;
+}
+/* Estilos del menú */
+nav{
+  height: 115px;
+  width: 100%;
+  position: fixed;
+}
+nav>section{
+  vertical-align: middle;
+  display: inline-block;
+  width: 100%;
+  height: 115px;
+}
+nav>section>#logo-lyft{
+  width: 153px;
+  height: 89px;
+}
+nav>section>img{
+  width: 70px;
+  height: 50px;
+  margin-left: 76px;
+  margin-top: 38px;
+  clear: both;
+}
+nav>section>#floating{
+  float: right;
+  margin-top: 38px;
+  margin-right: 146px;
+}
+nav>section>#floating>a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+a#log{
+  border: white solid 1px;
+  border-radius: 5px;
+  width: 95px;
+  height: 45px;
+}
+/*Estilo de select*/
+.caja {
+   margin:20px auto 40px auto;
+   height:30px;
+   overflow: hidden;
+   width: 230px;
+   position:relative;
+}
+select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 30px;
+   padding: 5px;
+   width: 80px;
+   color: white;
+}
+option{
+  background-color: #251C3B;
+}
+/* Estilos de la sección 1 */
+#section-1{
+  height: 535px;
+}
+#section-1>section{
+  position: absolute;
+  width: 525px;
+  height: 421px;
+  background-color: white;
+  right: 0;
+  margin-top: 115px;
+}
+#formulary{
+  margin-left: 64px;
+  margin-top: 70px;
+}
+#formulary>h2{
+  color:#352384;
+}
+#formulary>h6{
+  color: #5E4F9D;
+
+}
+#section-1>img{
+  height: 535px;
+  width: 100%;
+}
+/* Estilos de mi formulario */
+input{
+  border: none;
+  color: #D1D6DE;
+}
+input>hr{
+  width: 394px;
+}
+button{
+  background-color: #FF00BF;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 186px;
+  height: 49px;
+}
+form>p{
+  font-size: 14px;
+}
+p>a{
+  color: #FF00BF;
+  text-decoration:none;
+}
+/* Estilos de la sección 2 */
+#section-2{
+  height: 641px;
+  background-image: linear-gradient(to bottom, #76278F, #642485, #432073, #2E1E67, #2B1E66);
+}
+#section-2>img{
+  width: 439px;
+  height: 491px;
+  right: 150px;
+  position: absolute;
+  margin-top: 74px;
+}
+#text-phone{
+  position: absolute;
+  color: white;
+}
+#text-phone>section{
+  margin: 22px;
+  border: green;
+  width: 331px;
+  height: 95px;
+}
+#text-phone>p>h2{
+  margin: 0;
+  font-size: xx-large;
+}
+.argument{
+  margin: 25px;
+  width: 332px;
+  margin-left: 129px;
+  margin-top: 91px;
+}
+/* Estilos de la sección 3 */
+#section-3{
+  height: 377px;
+}
+#learn-more{
+  width: 336px;
+  height: 279px;
+  background-color: white;
+  position: absolute;
+  margin-left: 42px;
+  margin-top: 93px;
+}
+#learn-more>h5{
+  color: #FF00BF
+}
+#video>iframe{
+  position: absolute;
+  right: 0;
+}
+/* Estilos de la sección 4 */
+#section-4{
+  height: 377px;
+  width: 100%;
+}
+#watch{
+  width: 336px;
+  height: 279px;
+  background-color: white;
+  position: absolute;
+  right: 42px;
+  margin-top: 93px;
+}
+#watch>h5{
+  margin:0;
+}
+#video-2>iframe{
+  position: absolute;
+  left: 0;
+}
+/* Estilos de la sección 5 */
+#section-5{
+  height: 376px;
+  width: 100%;
+  position: relative;
+}
+#learn-more2{
+  width: 336px;
+  height: 279px;
+  background-color: white;
+  position: absolute;
+  margin-left: 42px;
+  margin-top: 93px;
+}
+#learn-more2>h5{
+  color: #FF00BF;
+  margin:0;
+}
+#video-3>iframe{
+  position: absolute;
+  right: 0;
+}
+/* Estilos de footer */
+footer{
+  height: 651px;
+  width: 100%;
+  background-color: #333447;
+  color: white
+}
+div{
+  width: 150px;
+  height: 400px;
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  margin-left: 76px;
+  margin-top: 48px;
+}
+div>img{
+  width: 160px;
+  height: 59px;
+  margin: 15px;
+}
+#bottom-page{
+  margin-top: 80px;
+  text-align: center;
+}
+#social>span{
+  width: 35px;
+  height: 35px;
+  border: white solid 2px;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+#bottom-page>hr{
+  width: 503px;
+  margin-top: 25px;
+}
