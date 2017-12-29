@@ -8,10 +8,13 @@ body{
 }
 .through:hover{
   color: #FF00BF;
-  text-decoration:
 }
 .hand:hover{
   cursor: pointer;
+}
+.under:hover{
+  text-decoration: underline;
+  text-decoration-color: #FF00BF;
 }
 /* Estilos del menú */
 nav{
@@ -251,4 +254,7 @@ div>img{
 #bottom-page>hr{
   width: 503px;
   margin-top: 25px;
+}
+#stores>img,#social>span:hover{
+  cursor: pointer;
 }
